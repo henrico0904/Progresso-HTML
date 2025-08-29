@@ -20,19 +20,26 @@ header {
 .logo {
     font-size: 26px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
 }
 
 .menu{
     display: flex;
     gap: 30px;
+    
 }
 
 .menu a{
     color: azure;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    transition: all 0.6s ease;
+    
 }
 
 .menu a:hover{
-    color: aquamarine;
+    color: rgb(145, 4, 211);
+    transition: all 0.6s ease; 
 }
